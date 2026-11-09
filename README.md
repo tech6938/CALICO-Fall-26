@@ -20,20 +20,20 @@ All solutions use Python 3 and the standard library only, and read from standard
 
 ```
 python prompt.py < input.txt
-python rain_simple_validation.py < input.txt
+python rain_draft_main.py < input.txt
 ```
 
 PowerShell:
 
 ```
-Get-Content input.txt | python prompt.py
+Get-Content input.txt | python prompt_draft_main.py
 ```
 
 Problem 7 runs twice. The first line of the input is `FIRST` or `SECOND`:
 
 ```
-Get-Content input1.txt | python forgor_validated.py
-Get-Content input2.txt | python forgor_validated.py
+Get-Content input1.txt | python forgor.py
+Get-Content input2.txt | python forgor.py
 ```
 
 For `SECOND`, build the input from your own `FIRST` output with one value replaced by `-1`.
